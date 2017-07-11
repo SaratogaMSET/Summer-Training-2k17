@@ -67,7 +67,7 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void autonomousInit() {
-		//CHANGE THIS LINE TO WHATEVER YOU WANT IT TO SAY!
+		// CHANGE THIS LINE TO WHATEVER YOU WANT IT TO SAY!
 		DriverStation.getInstance().reportError("Hello 649!", true);
 		// This will be printed once at the start of autonomous
 	}
@@ -77,7 +77,7 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void autonomousPeriodic() {
-		//CHANGE THIS LINE TO WHATEVER YOU WANT IT TO SAY!
+		// CHANGE THIS LINE TO WHATEVER YOU WANT IT TO SAY!
 		DriverStation.getInstance().reportError("Hello 649!", true);
 		// This will print multiple times during autonomous
 	}
