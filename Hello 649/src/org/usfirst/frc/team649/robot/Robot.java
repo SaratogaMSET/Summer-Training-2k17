@@ -79,7 +79,7 @@ public class Robot extends IterativeRobot {
 	public void autonomousPeriodic() {
 		//CHANGE THIS LINE TO WHATEVER YOU WANT IT TO SAY!
 		DriverStation.getInstance().reportError("Hello 649!", true);
-		// This will print multiple times
+		// This will print multiple times during autonomous
 	}
 
 	@Override
